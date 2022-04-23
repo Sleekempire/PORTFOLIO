@@ -1,0 +1,292 @@
+
+
+/*css variables*/
+@import url(./Partials/_variables.css);
+
+
+
+/*start navigation*/
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;      
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 8rem;
+      
+}
+
+.nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: black;    
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background-clip: text;
+    color: purple;
+}
+
+/*end navigation*/
+
+/* Banner Area */
+
+.site-main.site-banner{
+    background-image: url(/PortFolio_Website-master/img/banner/home-banner.png) no-repeat;
+    background-position: 0% 50%;
+}
+
+.banner-setting{
+    padding-top: 20%;
+    font-weight: 500;
+}
+
+.banner-setting{
+    padding-top: 20%;
+    font-weight: 50px;
+}
+
+.title1::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.title2{
+    font-size: 2.7rem;
+}
+
+.title3{
+    font-size: 1.2rem;
+}
+
+.banner-img{
+    padding: 50px;
+    width: 395px;
+    margin-left: 170px;
+    height: 100%;
+ 
+}
+
+
+.b1{
+    font-size: small;   
+}
+
+
+.b2{
+    margin-left: 60px;
+    font-size: small;   
+}
+
+
+
+
+/* start about area*/
+.u1{
+    display:block;
+    letter-spacing: 10px; 
+    
+}
+
+
+.b9{
+    margin-right: 60px; 
+    font-size: small; 
+}
+
+.para1{
+    padding: 1.0rem 0;
+    color: var(--text-color);
+    text-align: justify;
+}
+
+.para2{
+    padding: 1.0rem 0;
+    color: var(--text-color);
+    text-align: justify;
+}
+
+/* End about area*/
+
+/* Start Brand Area*/
+.brand-area{
+    padding: 3rem 6rem 10rem 10rem;
+    margin-bottom: 15rem ;
+}
+
+.first-row.col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.col-lg-4{
+    text-align: center;
+    padding: 1rem 0.2rem;
+    margin: 0.1rem 0rem 1rem 1rem;
+    width: 140px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform .4s;
+} 
+
+/*
+.img1{
+width: 70%;
+}
+
+.img1:hover{
+    box-shadow:0px 10px 30px rgba(57, 56, 61, 0.205) ;
+    width: 28%;
+ 
+    transform: translateY(-10px);
+    filter: brightness(0.2);
+}
+
+.u :hover{
+    transform: translateY(-10px);
+}
+
+u:hover{
+    width: 28%;
+}
+*/
+
+
+.u:hover{
+    transform: scale(1.1);
+    filter: brightness(0.01);
+    box-shadow:0px 10px 30px rgba(243, 107, 16, 0.205) 
+}
+
+.experience-area{
+    padding-left: 3rem;
+}
+
+.experience-area span{
+    display: block;
+}
+
+.showcase{
+    position: relative;
+    background: url(/PortFolio_Website-master/img/client-info-bg.png) no-repeat  45px 20px;
+
+/*Background Design for Call Center*/
+    
+}
+.bg-panel{
+    position: center right;
+    left: -300px;
+    top: 300%;
+    background: #f73b020a;
+    width: 290px;
+    height: 350px;
+    margin: -10px;
+    z-index: -1;
+
+    
+}
+
+/*Background Design for Call Center*/
+
+.p-3years{
+    position: relative;
+    font: bold  var(--roboto);
+    color: var(--primary-color2);
+    font-size: 100px;
+    padding: 0% 7% 3% 0%;
+    font-weight: 90px;
+    margin-top: -5px;
+}
+
+.span{
+    font: var(--roboto);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.call-area{
+    font-family: var(--roboto);
+    padding: 5%;
+    margin-top: 70px;
+    margin-left: -10px;
+    text-decoration:none;
+}
+
+.h4{
+    padding: 5%;
+    font-size: 15px;
+    text-decoration:none;
+}
+
+/* End Brand Area*/
+
+/*services Area*/
+
+.service-area{
+    margin-top: 70px;
+    
+}
+
+.services-title{
+    padding: 0.14rem;
+    
+}
+
+.s1{
+    font-size: 25px;
+
+}
+
+.par5{
+    font-size: 15px;
+    padding: 1%;
+    text-justify: distribute-all-lines;
+    color: blue;
+
+}
+
+.card-title{
+    font-size: 15px;
+    justify-content: center;
+    
+   
+}
+
+
+
+
+
+
+
+/*End Area*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
